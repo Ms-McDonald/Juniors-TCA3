@@ -21,7 +21,7 @@
       </div>
       <div class="row justify-content-center text-center">
         <div class="col-6 px-0 my-5" v-for="student in students">
-          <a :href=getLink(student.lastName)>
+          <a :href="getLink(student.lastName)">
             <h2>{{student.firstName}} {{student.lastName}}</h2>
           </a>
         </div>
